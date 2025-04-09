@@ -1,0 +1,112 @@
+body{
+   width: 100%;
+}
+.content{
+   width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    gap: 2rem;
+ 
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+.icon:hover img{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.icon img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+.SobreMim{
+    background-color: #111;
+    border-radius: 30px;
+    padding: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.btn{
+    background-color: #111;
+    border-radius: 30px;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+.btn:hover{
+    background-color: #222;
+    transition: background-color 0.3s ease;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        gap: 2rem;
+     
+    }
+    .SobreMim{
+        background-color: #111;
+        border-radius: 30px;
+        padding: 1.5rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        width: 80%;
+        text-align: center;
+    }
+    .icon img{
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease;
+    }
+}
+
+@media (max-width: 769px) {
+
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        gap: 2rem;
+     
+    }
+    .SobreMim{
+        background-color: #111;
+        border-radius: 30px;
+        padding: 1.5rem;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        width: 80%;
+        text-align: center;
+    }
+    .icon img{
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        transition: transform 0.3s ease;
+    }
+  
+}
