@@ -1,42 +1,45 @@
 import React from 'react';
-import X from "../../../public/twitter.png";
-import Y from "../../../public/github-brands-solid.svg";
-import Z from "../../../public/linkedin-logo.png";
-import W from "../../../public/instagram.png";
-import "./styleRedes.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin, faInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import './style.css';
 
 export default function Redes() {
   return (
-    <div className="content-redes">
-      <h1 className="title">Redes Sociais</h1>
-      <p>Me siga nas redes sociais:</p>
-      <ul className="icons-redes">
-        <li className='iconRedes'>
-        
-          <a href="https://github.com/vitorsantabi" target="_blank" rel="noopener noreferrer" className="redes">
-            <img src={Y} alt="GitHub logo" />
-            GitHub</a>
-        </li>
-        <li className='iconRedes'>
-          
-          <a href="https://www.linkedin.com/in/vitorsantab/" target="_blank" rel="noopener noreferrer" className="redes">
-          <img src={Z} alt="LinkedIn logo" />
-          LinkedIn</a>
-        </li>
-        <li className='iconRedes'>
-          
-          <a href="https://www.instagram.com/vitorsantab/" target="_blank" rel="noopener noreferrer" className="redes">
-          <img src={W} alt="Instagram logo" />
-          Instagram</a>
-        </li>
-        <li className='iconRedes'>
-          <a href="https://x.com/vitorsantab" target="_blank" rel="noopener noreferrer" className="redes">
-          <img src={X} alt="X logo" />
-          X</a>
-        </li>
-      </ul>
+    <div className='redes'>
+      <div className='container-text'>
+        <h1>Redes Socias</h1>
+        <p>Me siga para acompanhar meu trabalho </p>
+      </div>
+      <div className='container-rede'>
+        <a href='https://github.com/vitorsantabi' target='_blank' rel='noopener noreferrer'>
+          <FontAwesomeIcon icon={faGithub} size='5x' />
+          <span className='text-rede'>
+            <strong>Github</strong>
+            <p>github.com/vitorsantabi</p>
+          </span>
+        </a>
+        <a href='https://www.linkedin.com/in/vitorsantabi' target='_blank' rel='noopener noreferrer'>
+          <FontAwesomeIcon icon={faLinkedin} size='5x' />
+          <span className='text-rede'>
+            <strong>Linkedin</strong>
+            <p>linkedin.com/in/vitorsantabi</p> 
+          </span> 
+        </a>
+        <a href='https://www.instagram.com/vitorsantab/#' target='_blank' rel='noopener noreferrer'>  
+          <FontAwesomeIcon icon={faInstagram} size='5x' />
+          <span className='text-rede'>
+            <strong>Instagram</strong>
+            <p>instagram.com/vitorsantab</p>
+          </span>
+        </a>
+        <a href='https://x.com/vitorsantab'>
+          <FontAwesomeIcon icon={faXTwitter} size='5x' />
+          <span className='text-rede'>
+            <strong>Twitter</strong>
+            <p>x.com/vitorsantab</p>
+          </span>   
+        </a>
+      </div>
     </div>
   );
 }
-
-  

@@ -1,16 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 body {
-  margin: 0;
-  padding: 0;
   font-family: 'Quicksand', sans-serif;
   color: #fff;
-  
   background: linear-gradient(to top, #142924, #130e1a);
-  height: 100vh;
-  width: 100vw;
-  
+  background-size: cover;
+  background-attachment: fixed;
 }
-.main{
+.main {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,14 +19,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-
-
 /*//////////////// Media Query/////////////////*/
-
-@media (max-width: 992px) {
-
-}
-
-@media (max-width: 769px) {
-  
+@media (max-width: 768px) {
+ 
 }

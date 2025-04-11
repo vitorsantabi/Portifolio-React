@@ -11,7 +11,7 @@ export default function SobreMim() {
           <h1>Sobre Mim</h1>
           <p>Meu nome é Vitor e sou estudante de programação. Estou sempre buscando aprender mais e me aprimorar na área. Atualmente, estou focado em desenvolver minhas habilidades em React e JavaScript.</p>
           <p>Estou animado para compartilhar meu conhecimento e experiências com vocês!</p>
-      <button className='btn'>Download CV</button>
+           <button className='btn'>Download CV</button>
         </div>
 
       </div>

@@ -1,19 +1,23 @@
-import { Link } from "react-router-dom";
+
 import "./nav.css";
 export default function Navbar() {
   return (
-    <nav className="bg-gray-900 text-white p-4 shadow-md">
-      <ul className="flex justify-center gap-6 text-lg">
+    <nav className="menu">
+    
+      <ul className="listaOrdenada">
      
         <li>
-          <Link to="/" className="hover:text-teal-400">Sobre Mim</Link>
+          <a href="/">Sobre Min</a>
+          
         </li>
         <li>
-          <Link to="/projetos" className="hover:text-teal-400">Projetos</Link>
+          <a href="/projetos">Projetos</a>
+          
         </li>
         <li>
-          <Link to="/redes" className="hover:text-teal-400">Redes Sociais</Link>
+          <a href="/redes">Redes Sociais</a>
         </li>
+       
       </ul>
     </nav>
   );

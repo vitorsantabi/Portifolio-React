@@ -1,47 +1,11 @@
-# Portfólio React
-Este é um portfólio de um desenvolvedor web, construído com React, projetado para exibir projetos e habilidades de desenvolvimento.
+# React-Portfolio made with love and with beautiful UI.
 
-Visualize a versão ao vivo
+Live Preview at : https://myself.now.sh/
 
-## 🛠️ Tecnologias Utilizadas
-React - Biblioteca JavaScript para construção de interfaces de usuário.
+### Hi there 👋 I am Sachin, a full stack web and app developer. I love to build new things that excites me a lot.
 
-Vite - Ferramenta de construção rápida e moderna para projetos em React.
+# buy-me-a-coffee
 
-CSS - Estilos e design responsivo.
+Liked some of my work? Buy me a coffee (or more likely a beer) as it motivates me to build new things 😊
 
-HTML - Estrutura básica da página.
-
-## 📦 Como Rodar o Projeto
-Siga as etapas abaixo para rodar o projeto localmente:
-
-Clone o repositório:
-
-bash
-Copiar
-Editar
-git clone https://github.com/vitorsantabi/Portifolio-React.git
-Navegue até a pasta do projeto:
-
-bash
-Copiar
-Editar
-cd Portifolio-React
-Instale as dependências:
-
-bash
-Copiar
-Editar
-npm install
-Execute o projeto:
-
-bash
-Copiar
-Editar
-npm run dev
-Agora, o projeto estará rodando localmente, geralmente acessível em http://localhost:3000.
-
-💡 Sobre
-Olá! Eu sou o Vítor, um desenvolvedor web que ama construir coisas novas. Este portfólio é uma forma de mostrar alguns dos meus projetos e minhas habilidades.
-
-Se você gostou do que viu, não deixe de conferir os outros projetos no meu GitHub!
+<a href="https://www.buymeacoffee.com/sachinm" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
