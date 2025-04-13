@@ -7,7 +7,7 @@ export default function Navbar() {
       <ul className="listaOrdenada">
      
         <li>
-          <a href="/">Sobre Min</a>
+          <a href="/">Sobre Mim</a>
           
         </li>
         <li>

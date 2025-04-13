@@ -13,7 +13,7 @@ export default function Projetos() {
             </div>
             <div>
               <div className='botao'>
-                <a href="https://github.com/vitorsantabi/AppReact-native">Acesse o Gifhub do Projeto</a>
+                <a href="https://github.com/vitorsantabi/AppReact-native">Acesse o Github do Projeto</a>
               </div>
             </div>
           </div>
